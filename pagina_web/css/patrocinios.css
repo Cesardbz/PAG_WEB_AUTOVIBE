@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar a:hover {
+    color: #ff6f61;
+}
+
+.carousel-item {
+    min-height: 400px;
+
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    color: white;
+}
+
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+   
+}   
+
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+/*SECCION DE SERVICIOS*/
+.services{
+    padding: 80px 0;
+}
+
+.bg-car1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/c1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.bg-car2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/c2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.bg-car3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/c3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/*SECCION DE PROMOCIONES*/
+.box-icons i{
+    font-size: 40px;
+}
+.box-icons h3{
+    font-size: 20px;
+    font-weight: 800;
+  
+}
+
+/*SECCION DE PRODUCTOS*/
+.product{
+    padding: 80px 0;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.banner{
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background-color: #eae5df;
+}
+.banner h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner img{
+    width: 300px;
+
+}
+/* última sección piezass */
+.seccionfinal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f4eee7;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .texto {
+    max-width: 50%;
+    font-family: sans-serif;
+  }
+  
+  .texto h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .imagen img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  
+  /* media*/
+  @media (max-width: 768px) {
+    .seccionfinal {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  
+    .texto {
+      max-width: 100%;
+    }
+  
+    .texto h1 {
+      font-size: 2rem;
+    }
+  
+    .texto p {
+      font-size: 1rem;
+    }
+  
+    .imagen img {
+      max-width: 100%;
+    }
+  }
+  
+
+@media(max-width: 767px){
+    .carousel-item{
+       min-height: 500px;
+    }
+    .carousel-item img {
+       height: 500px;
+    }
+    
+    .carousel-caption{
+        bottom: 30px;
+    }
+
+    .carousel-caption h5{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .services{
+        padding: 30px 0;
+    }
+    .product {
+        padding: 30px 0 0 0;
+    }
+    .banner {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 360px) {
+    .seccionfinal {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 10px;
+    }
+  
+    .texto {
+      max-width: 100%;
+    }
+  
+    .texto h1 {
+      font-size: 1.5rem;
+    }
+  
+    .texto p {
+      font-size: 0.9rem;
+    }
+  
+    .imagen img {
+      max-width: 100%;
+    }
+  
+    .carousel-item {
+      min-height: 400px;
+    }
+  
+    .carousel-item img {
+      height: 400px;
+    }
+  
+    .carousel-caption {
+      bottom: 20px;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 32px;
+      margin-top: 0;
+    }
+  
+    .carousel-caption p {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .services {
+      padding: 20px 0;
+    }
+  
+    .product {
+      padding: 20px 0 0 0;
+    }
+  
+    .banner {
+      margin-bottom: 20px;
+    }
+  }
+  

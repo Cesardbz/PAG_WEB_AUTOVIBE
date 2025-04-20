@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: poppins, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #fff;
+    --text-color: #000;
+    --main-color: #ff4d00;
+    --second-color: #f2f2f2;
+    --third-color: #e6e6e6;
+    --fourth-color: #ccc;
+    --fifth-color: #b3b3b3;
+    --sixth-color: #999;
+    --seven-color: #808080;
+    --eight-color: #666;
+    --nine-color: #4d4d4d;
+    --tenth-color: #333;
+}
+/*ESTILO DEL HEADER*/
+
+.header{
+    background: gainsboro;
+}
+.red_social{
+    font-size: 17px;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: rgb(123, 10, 123);
+}
+.fa-x-twitter:hover{
+    color: rgb(16, 84, 210);
+}
+.fa-linkedin-in:hover{
+    color: rgb(0, 0, 255);
+}
+.fa-youtube:hover{
+    color: red;
+}
+
+/*ESTILO DEL CONTENIDO*/
+.heading{
+    text-align: center;
+
+}
+.heading span{
+    font-weight: 500;
+    color: var(--main-color);
+}
+.heading p{
+    font-size: 0.938rem;
+    font-weight: 300;
+}
+/*ESTILO DEL CONTENIDO DE AUTOS*/
+.cars-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cars-container .box{
+   flex: 1 1 17rem;
+   position: relative;
+   height: 200px;
+   border-radius: 0.5rem;
+   overflow: hidden;
+}
+.cars-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.cars-container .box:hover img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cars-container .box h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.cars-container .box:hover h2{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+/*ESTILO DE ACERCA DE*/
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img{
+    flex: 1 1 17rem; 
+
+  
+}
+.about-img img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+.about-text{
+    flex: 1 1 17rem;
+}
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+}
+.about-text h2{
+    font-size: 1.7rem;
+}
+.about-text p{
+    font-size: 0.938rem;
+    line-height: 1.6;
+    margin: 0.5rem 0 1.4rem;
+    text-align: justify
+}
+.about-text .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--main-color);
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.about-text .btn:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+}
+/*ESTILO DEL CONTENEDOR DE PIEZAS*/
+.parts-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.parts .heading p{
+    text-align: justify;
+    font-size: 0.938rem;
+    line-height: 1.6;
+    margin: 90px;
+
+}
+.parts-container .box{
+   flex: 1 1 17rem;
+   position: relative;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   background: #f6f6f6;
+   border-radius: 0.5rem;
+   overflow: hidden;
+}
+.parts-container .box img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.parts-container .box h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: orangered;
+}
+.parts-container .box .bx{
+    color: var(--main-color);
+    margin: 0.8rem 0;   
+}
+
+.parts-container .box .btn{
+    max-width: 120px;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--main-color); 
+    color: var(--bg-color); 
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.parts-container .box .btn:hover {
+    background: orangered; 
+    color: white; 
+    transform: scale(1.05);
+}
+.parts-container .box .details{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    bottom: 1.8rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.parts-container .box .details:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+/* Estilos del Blog */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.blog-container .box {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.blog-container .box:hover {
+    background: var(--sixth-color);
+    color: var(--text-color);
+}
+
+.blog-container .box span {
+    font-size: 0.8rem;
+    color: var(--main-color);
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.blog-container h3 {
+    font-size: 1.2rem;
+}
+
+.blog-container .box p {
+    font-size: 0.938rem;
+    margin: 4px 0;
+}
+
+.blog-container .box .blog-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: var(--text-color);
+}
+
+.blog-container .box .blog-btn .bx {
+    font-size: 20px;
+}
+
+.blog-container .box .blog-btn:hover {
+    color: var(--main-color);
+    column-gap: 0.7rem;
+    transition: 0.4s;
+}
+
+/* Estilo de las imágenes del Blog */
+.blog-container .box img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .blog-container {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 1rem; 
+    }
+
+    .blog-container .box {
+        margin-bottom: 1rem; 
+    }
+
+    .blog-container h3 {
+        font-size: 1.1rem; 
+    }
+
+    .blog-container .box p {
+        font-size: 0.875rem; 
+    }
+}
+
+
+
+/*ESTILO DE LA SECCION DEL FOOTER*/
+.footer{
+  
+    background: rgb(11, 11, 11);
+    color: rgb(255, 255, 255);
+    border-top: 2px solid var(--main-color);
+    padding-bottom: 30px;
+}
+
+.footer .container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}   
+
+.footer .container .logo{
+   color: var(--bg-color);
+   margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    justify-items: center; 
+    align-items: center;
+}
+.social a{
+    font-size: 24px;
+    color: var(--bg-color);
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social a .bi-facebook:hover{
+    color: rgb(33, 58, 251);
+}
+.social a .bi-instagram:hover{
+    color: rgb(176, 0, 207);
+}
+.social a .bi-twitter:hover{
+    color: rgb(7, 128, 249);
+}
+.social a .bi-github:hover{
+    color: rgb(62, 61, 61);
+}
+.social a .bi-youtube:hover{
+    color: rgb(255, 15, 15);
+}
+
+.social a .bi-whatsapp:hover{
+    color: rgb(35, 147, 8);
+}
+.social a .bi-messenger:hover{
+    color: rgb(8, 98, 242);
+}
+
+footer{
+    background: black;
+    color: white;
+}
+footer .footer-bottom{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: var(--bg-color);
+}
+/**/
+.fa-whatsapp:hover{
+    color: rgb(35, 147, 8);
+}
+.fa-envelope:hover{
+    color: rgb(251, 96, 19);
+}
+
+.bi-list{
+    font-size: 29px;
+}
+
+
+/*media*/
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; 
+        text-align: center; 
+        gap: 0.1rem;
+    }
+
+    .about-img {
+        max-width: 80%; 
+        margin: 0 auto ; 
+        padding: 0;
+    }
+
+    .about-text {
+        text-align: center; 
+        margin-top: 0; 
+    }
+}
+
+@media (max-width:1080px){
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width:991px){
+    .nav{
+        padding: 15px 20px;
+    }
+    .section{
+        padding: 3rem 0 1rem;
+    }
+    .home-text{
+        padding-left: 2rem;
+    }
+    .home-text h1{
+        font-size: 2rem;
+    }
+}
+/*seccion de contacto*/
+.img-contacto{
+    width: 100%;
+    height: auto;
+}
+
+
+
+  
+
+
+ /* 
+  
+
+@media (max-width: 425px) {
+    .footer .container {
+        flex-direction: column; 
+        text-align: center;
+        gap: 1rem; 
+    }
+
+    .footer .logo {
+        margin-bottom: 1rem; 
+    }
+
+    .social {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 0.5rem; 
+    }
+
+    .social a {
+        font-size: 20px; 
+    }
+
+    footer .footer-bottom {
+        font-size: 0.75rem; 
+    }
+}
+@media (max-width: 425px) {
+    body {
+      padding: 0 1rem;
+    }
+  
+    .heading h2,
+    .about-text h2 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    .about-text p,
+    .heading p {
+      text-align: justify;
+      font-size: 0.9rem;
+    }
+  
+    .cars-container,
+    .parts-container {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    .blog-container {
+      grid-template-columns: 1fr;
+    }
+  
+    nav,
+    header {
+      padding: 0.5rem 1rem;
+    }
+  
+    .hero-content h1,
+    .hero-content p {
+      text-align: center;
+      font-size: 1.6rem;
+    }
+  }
+  
+/**/
+/* Estilos  para dispositivos */
+
+  /*
+  @media (min-width: 426px) and (max-width: 768px) {
+    .cars-container,
+    .parts-container {
+      justify-content: center;
+    }
+  
+    .blog-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .about {
+      flex-direction: column;
+    }
+  }*/
+
+  @media (max-width: 360px) {
+    .footer .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.75rem;
+    }
+  
+    .footer .logo {
+      margin-bottom: 0.75rem;
+    }
+  
+    .social {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.4rem;
+    }
+  
+    .social a {
+      font-size: 18px;
+    }
+  
+    footer .footer-bottom {
+      font-size: 0.7rem;
+    }
+  
+    body {
+      padding: 0 0.75rem;
+    }
+  
+    .heading h2,
+    .about-text h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .about-text p,
+    .heading p {
+      text-align: justify;
+      font-size: 0.85rem;
+    }
+  
+    .cars-container,
+    .parts-container {
+      flex-direction: column;
+      gap: 0.75rem;
+      align-items: center;
+    }
+  
+    .blog-container {
+      grid-template-columns: 1fr;
+    }
+  
+    nav,
+    header {
+      padding: 0.4rem 0.75rem;
+    }
+  
+    .hero-content h1,
+    .hero-content p {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  }
+  
