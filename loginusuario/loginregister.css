@@ -1,5 +1,10 @@
 body {
-    background: linear-gradient(135deg, #d0f0c0, #a8e6cf, #f0f4f3);
+  /*
+    background: linear-gradient(135deg, #d0f0c0, #a8e6cf, #f0f4f3);*/
+    background-image: url('/IMG/fondouser1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -58,7 +63,7 @@ body {
   }
 
   .bg-welcome {
-    background: linear-gradient(145deg, forestgreen, #228b22);
+    background: linear-gradient(145deg, rgb(9, 176, 9), #228b22);
     color: white;
     text-align: center;
   }

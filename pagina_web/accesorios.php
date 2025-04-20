@@ -96,7 +96,7 @@
               <div class="row">
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-right">
                       <img src="/IMG/pr1.png" alt="">
                     </div>
                     <div class="card-body">
@@ -109,7 +109,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-right">
                       <img src="/IMG/pr2.png" alt="">
                     </div>
                     <div class="card-body">
@@ -122,7 +122,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-left">
                       <img src="/IMG/pr3.png" alt="">
                     </div>
                     <div class="card-body">
@@ -137,7 +137,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-left">
                       <img src="/IMG/pr4.png" alt="">
                     </div>
                     <div class="card-body">
@@ -152,7 +152,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-right">
                       <img src="/IMG/pr5.png" alt="">
                     </div>
                     <div class="card-body">
@@ -168,7 +168,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-right">
                       <img src="/IMG/pr6.png" alt="">
                     </div>
                     <div class="card-body">
@@ -183,7 +183,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-left">
                       <img src="/IMG/pr7.png" alt="">
                     </div>
                     <div class="card-body">
@@ -197,7 +197,7 @@
 
                 <div class="col-12 col-md-12 col-lg-3">
                   <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
-                    <div class="text center">
+                    <div class="text center" data-aos="fade-left">
                       <img src="/IMG/pr8.png" alt="">
                     </div>
                     <div class="card-body">
@@ -221,7 +221,7 @@
              en cada viaje. ¡Impulsa tu pasión por los autos con lo mejor del mercado!
              </p>
             </div>
-               <div class="imagen">
+               <div class="imagen" data-aos="zoom-in-down">
                  <img src="/IMG/mo1.png" alt="Motor">
                </div>
           </div>

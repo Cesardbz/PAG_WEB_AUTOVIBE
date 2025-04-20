@@ -89,7 +89,7 @@
         <!--Contenido de piezas-->
         <div class="parts-container container">
             <!--box 1-->
-            <div class="box">
+            <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part01.png" alt="">
                 <h3>Motor V8 biturbo AMG</h3>
                 <p>Alto rendimiento, ideal para autos deportivos de lujo.</p>
@@ -99,7 +99,7 @@
                 <a href="#" class="details">Ver Detalles</a>
             </div>
                <!--box 2-->
-               <div class="box">
+               <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part02.png" alt="">
                 <h3>Kit de Pistones</h3>
                 <p>Resistencia máxima para motores exigentes.</p>
@@ -109,7 +109,7 @@
                 <a href="#" class="details">Ver Detalles</a>
             </div>
                <!--box 3-->
-               <div class="box">
+               <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part03.png" alt="">
                 <h3>Pack de Repuestos</h3>
                 <p>Incluye suspensión, bujes, frenos y más.</p>
@@ -119,7 +119,7 @@
                 <a href="#" class="details">Ver Detalles</a>
             </div>
                <!--box 4-->
-               <div class="box">
+               <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part04.png" alt="">
                 <h3>Filtros de Aire </h3>
                 <p>Mejoran el rendimiento y prolongan la vida del motor.
@@ -131,7 +131,7 @@
                 <a href="#" class="details">Ver Detalles</a>
             </div>
                <!--box 5-->
-               <div class="box">
+               <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part05.png" alt="">
                 <h3>Alternador de Bosch</h3>
                 <p>Energía confiable para sistemas eléctricos avanzados.</p>
@@ -141,7 +141,7 @@
                 <a href="#" class="details">Ver Detalles</a>
             </div>
                <!--box 6-->
-               <div class="box">
+               <div class="box" data-aos="zoom-in-down">
                 <img src="/IMG/part06.png" alt="">
                 <h3>Llantas Pirelli P</h3>
                 <p>Máxima adherencia en pistas y carreteras.</p>

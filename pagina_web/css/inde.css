@@ -443,10 +443,31 @@ footer .footer-bottom{
     width: 100%;
     height: auto;
 }
-
-
-
+@media (max-width: 400px) {
+    .formulario1 input,
+    .formulario1 select,
+    .formulario1 textarea,
+    .formulario1 button {
+      font-size: 0.95rem;
+      padding: 0.6rem;
+    }
   
+    .formulario1 label {
+      font-size: 0.9rem;
+    }
+  
+    .formulario1 p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .formulario1 {
+      padding-left: 0.1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+
 
 
  /* 
